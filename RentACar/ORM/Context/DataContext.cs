@@ -15,6 +15,7 @@ namespace RentACar.ORM.Context
             // Veritabanı bağlantısı
             Database.Connection.ConnectionString = "Server=OGRETMEN\\MSSQLSERVER01;Database=RentACar;uid=sa;password=1";
         }
+
         // Migration adımları 
         // enable-migrations
         // add-migration migration_adi
