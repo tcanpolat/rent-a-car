@@ -56,6 +56,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAracEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAracEkle.Designer.cs">
+      <DependentUpon>frmAracEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAracListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAracListesi.Designer.cs">
+      <DependentUpon>frmAracListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKiralamalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKiralamalar.Designer.cs">
+      <DependentUpon>frmKiralamalar.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmKullaniciGiris.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +104,12 @@
     <Compile Include="ORM\Entity\Yonetici.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAracEkle.resx">
+      <DependentUpon>frmAracEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAracListesi.resx">
+      <DependentUpon>frmAracListesi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmKullaniciGiris.resx">
       <DependentUpon>frmKullaniciGiris.cs</DependentUpon>
     </EmbeddedResource>
