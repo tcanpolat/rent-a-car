@@ -387,3 +387,4 @@ InteropTests/NativeTests/out
 **/ScratchProjectWithInternals/
 
 ORM/Context/DataContext.cs
+/RentACar/ORM/Context/DataContext.cs
