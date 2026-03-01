@@ -68,6 +68,7 @@ namespace RentACar
         private void tsb_aracListesi_Click(object sender, EventArgs e)
         {
             frmAracListesi frmAracListesi = new frmAracListesi();
+            frmAracListesi.kid = kid;
             frmAracListesi.Show();
         }
     }

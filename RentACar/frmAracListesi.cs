@@ -30,5 +30,15 @@ namespace RentACar
             dgv_aracListesi.Columns[10].Visible = false;
             dgv_aracListesi.Columns[11].Visible = false;
         }
+
+        private void dgv_aracListesi_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            frmAracDetayVeKirala frmAracDetayVeKirala = new frmAracDetayVeKirala();
+            frmAracDetayVeKirala.kid = kid;
+            id = int.Parse(dgv_aracListesi.CurrentRow.Cells["ID"].Value.ToString());
+            frmAracDetayVeKirala.id = id;
+            frmAracDetayVeKirala.Show();
+            this.Hide();
+        }
     }
 }

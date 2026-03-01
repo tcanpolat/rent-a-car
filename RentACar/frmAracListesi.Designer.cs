@@ -39,6 +39,7 @@
             this.dgv_aracListesi.Name = "dgv_aracListesi";
             this.dgv_aracListesi.Size = new System.Drawing.Size(878, 377);
             this.dgv_aracListesi.TabIndex = 0;
+            this.dgv_aracListesi.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgv_aracListesi_CellMouseClick);
             // 
             // frmAracListesi
             // 
